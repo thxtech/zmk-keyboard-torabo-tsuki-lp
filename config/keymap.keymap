@@ -107,11 +107,11 @@
 
         layer_0 {
             bindings = <
-&none  &none             &none      &none      &none          &none                                       &none        &none  &none      &none      &none      &none
-&none  &kp Q             &kp W      &kp E      &kp R          &kp T                                       &kp Y        &kp U  &lt 5 I    &kp O      &kp P      &none
-&none  &kp A             &kp S      &kp D      &kp F          &kp G             &none        &none        &kp H        &kp J  &kp K      &kp L      &kp SQT    &none
-&none  &mt LEFT_SHIFT Z  &kp X      &kp C      &kp V          &kp B             &kp ENTER    &kp ENTER    &kp N        &kp M  &kp COMMA  &kp DOT    &kp SLASH  &none
-&none  &lt 6 ESC         &kp LANG2  &kp LANG1  &mt LCTRL TAB  &mt LEFT_WIN ESC  &lt 1 UNDER  &lt 2 ENTER  &lt 3 SPACE  &none  &none      &kp ENTER  &kp EQUAL  &none
+&none  &none             &none      &none      &none          &none                                              &none        &none  &none      &none          &none      &none
+&none  &kp Q             &kp W      &kp E      &kp R          &kp T                                              &kp Y        &kp U  &lt 5 I    &kp O          &kp P      &none
+&none  &kp A             &kp S      &kp D      &kp F          &kp G             &none             &none          &kp H        &kp J  &kp K      &kp L          &kp SQT    &none
+&none  &mt LEFT_SHIFT Z  &kp X      &kp C      &kp V          &kp B             &kp Z             &kp RIGHT_GUI  &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH  &none
+&none  &lt 6 ESC         &kp LANG2  &kp LANG1  &mt LCTRL TAB  &mt LEFT_WIN ESC  &lt 1 UNDERSCORE  &lt 2 ENTER    &lt 3 SPACE  &none  &none      &kp BACKSLASH  &kp EQUAL  &none
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -119,31 +119,31 @@
 
         layer_1 {
             bindings = <
-&none  &none         &none         &none         &none         &none                               &none         &none         &none         &none         &none         &none
-&none  &trans        &trans        &trans        &trans        &trans                              &trans        &trans        &trans        &trans        &trans        &none
-&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none      &none      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none  &trans        &trans        &trans        &trans        &trans        &kp ENTER  &kp ENTER  &trans        &trans        &trans        &trans        &trans        &none
-&none  &trans        &trans        &trans        &trans        &trans        &trans     &trans     &trans        &none         &none         &kp ENTER     &trans        &none
+&none  &none         &none         &none         &none         &none                         &none         &none         &none         &none         &none         &none
+&none  &trans        &trans        &trans        &trans        &trans                        &trans        &trans        &trans        &trans        &trans        &none
+&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none   &none   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+&none  &trans        &trans        &trans        &trans        &trans        &none   &none   &trans        &trans        &trans        &trans        &trans        &none
+&none  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans        &none         &none         &none         &trans        &none
             >;
         };
 
         layer_2 {
             bindings = <
-&none  &none         &none     &none       &none            &none                                  &none           &none                 &none                  &none            &none          &none
-&none  &kp QUESTION  &trans    &trans      &trans           &trans                                 &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp PERCENT    &none
-&none  &kp AT        &kp HASH  &kp DOLLAR  &kp TILDE        &kp GRAVE        &none      &none      &kp CARET       &kp MINUS             &kp ASTERISK           &kp COLON        &kp SEMI       &none
-&none  &trans        &trans    &trans      &kp EXCLAMATION  &kp EXCLAMATION  &kp ENTER  &kp ENTER  &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &kp PIPE       &none
-&none  &trans        &trans    &trans      &trans           &trans           &trans     &trans     &trans          &none                 &none                  &kp ENTER        &kp BACKSLASH  &none
+&none  &none         &none     &none       &none            &none                            &none           &none                 &none                  &none            &none          &none
+&none  &kp QUESTION  &trans    &trans      &trans           &trans                           &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp PERCENT    &none
+&none  &kp AT        &kp HASH  &kp DOLLAR  &kp TILDE        &kp GRAVE        &none   &none   &kp CARET       &kp MINUS             &kp ASTERISK           &kp COLON        &kp SEMI       &none
+&none  &trans        &trans    &trans      &kp EXCLAMATION  &kp EXCLAMATION  &none   &none   &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &kp PIPE       &none
+&none  &trans        &trans    &trans      &trans           &trans           &trans  &trans  &trans          &none                 &none                  &none            &kp BACKSLASH  &none
             >;
         };
 
         layer_3 {
             bindings = <
-&none  &none             &none             &none             &none              &none                                      &none           &none            &none         &none            &none   &none
-&none  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)   &kp LC(NUMBER_5)                           &kp LC(Y)       &kp LS(LC(TAB))  &kp LC(TAB)   &trans           &trans  &none
-&none  &kp LS(LA(A))     &kp LS(LA(S))     &kp LA(LS(W))     &kp LA(LS(D))      &kp LA(LS(F))     &none         &none      &kp LEFT_ARROW  &kp DOWN         &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &none
-&none  &kp LS(LG(A))     &kp LG(LS(S))     &kp LS(LG(W))     &kp LG(LS(D))      &kp LEFT_SHIFT    &kp ENTER     &kp ENTER  &kp LA(H)       &kp LA(J)        &kp LA(K)     &kp LA(L)        &trans  &none
-&none  &kp LSHIFT        &trans            &trans            &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOL_UP  &trans     &trans          &none            &none         &kp ENTER        &trans  &none
+&none  &none             &none             &none             &none              &none                                   &none           &none            &none         &none            &none   &none
+&none  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)   &kp LC(NUMBER_5)                        &kp LC(Y)       &kp LS(LC(TAB))  &kp LC(TAB)   &trans           &trans  &none
+&none  &kp LS(LA(A))     &kp LS(LA(S))     &kp LA(LS(W))     &kp LA(LS(D))      &kp LA(LS(F))     &none         &none   &kp LEFT_ARROW  &kp DOWN         &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &none
+&none  &kp LS(LG(A))     &kp LG(LS(S))     &kp LS(LG(W))     &kp LG(LS(D))      &kp LEFT_SHIFT    &none         &none   &kp LA(H)       &kp LA(J)        &kp LA(K)     &kp LA(L)        &trans  &none
+&none  &kp LSHIFT        &trans            &trans            &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOL_UP  &trans  &trans          &none            &none         &none            &trans  &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(C_VOLUME_DOWN) LC(C_VOLUME_UP)>;
@@ -151,31 +151,31 @@
 
         layer_4 {
             bindings = <
-&none  &none   &none   &none   &none   &none                         &none   &none     &none     &none      &none   &none
-&none  &trans  &trans  &trans  &trans  &trans                        &trans  &trans    &trans    &trans     &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &none      &none      &trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &kp ENTER  &kp ENTER  &trans  &trans    &trans    &trans     &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &none     &none     &kp ENTER  &trans  &none
+&none  &none   &none   &none   &none   &none                   &none   &none     &none     &none      &none   &none
+&none  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans     &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &mkp MB1  &mkp MB3  &mkp MB2   &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none     &none     &kp ENTER  &trans  &none
             >;
         };
 
         layer_5 {
             bindings = <
-&none  &none   &none   &none   &none   &none                         &none   &none   &none   &none      &none   &none
-&none  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans     &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &none      &none      &trans  &trans  &trans  &trans     &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &kp ENTER  &kp ENTER  &trans  &trans  &trans  &trans     &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &none   &none   &kp ENTER  &trans  &none
+&none  &none   &none   &none   &none   &none                   &none   &none   &none   &none   &none   &none
+&none  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &none
             >;
         };
 
         layer_6 {
             bindings = <
-&none  &none   &none         &none         &none         &none                           &none         &none         &none         &none         &none           &none
-&none  &trans  &trans        &trans        &trans        &trans                          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none
-&none  &trans  &trans        &trans        &trans        &trans  &none      &none        &trans        &trans        &trans        &trans        &trans          &none
-&none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp ENTER  &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR      &none
-&none  &trans  &trans        &trans        &trans        &trans  &trans     &trans       &trans        &none         &none         &kp ENTER     &bt BT_CLR_ALL  &none
+&none  &none   &none         &none         &none         &none                   &none         &none         &none         &none         &none           &none
+&none  &trans  &trans        &trans        &trans        &trans                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none
+&none  &trans  &trans        &trans        &trans        &trans  &none   &none   &trans        &trans        &trans        &trans        &trans          &none
+&none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &bt BT_CLR      &none
+&none  &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans        &none         &none         &trans        &bt BT_CLR_ALL  &none
             >;
         };
 
