@@ -4,8 +4,7 @@
 
 / {
     chosen {
-        // Switch to S layout (4 rows) to better match roBa keymap
-        zmk,physical-layout = &physical_layout_s;
+        zmk,physical-layout = &physical_layout_l;
         zmk,kscan = &kscan0;
         zmk,battery = &non_lipo_battery;
     };
