@@ -107,11 +107,11 @@
 
         layer_0 {
             bindings = <
-&none  &none             &none      &none      &none          &none                                              &none        &none  &none      &none          &none      &none
-&none  &kp Q             &kp W      &kp E      &kp R          &kp T                                              &kp Y        &kp U  &lt 5 I    &kp O          &kp P      &none
-&none  &kp A             &kp S      &kp D      &kp F          &kp G             &none             &none          &kp H        &kp J  &kp K      &kp L          &kp SQT    &none
-&none  &mt LEFT_SHIFT Z  &kp X      &kp C      &kp V          &kp B             &kp Z             &kp RIGHT_GUI  &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH  &none
-&none  &lt 6 ESC         &kp LANG2  &kp LANG1  &mt LCTRL TAB  &mt LEFT_WIN ESC  &lt 1 UNDERSCORE  &lt 2 ENTER    &lt 3 SPACE  &none  &none      &kp BACKSLASH  &kp EQUAL  &none
+&none  &none             &none      &none      &none          &none                                         &none        &none  &none      &none          &none      &none
+&none  &kp Q             &kp W      &kp E      &kp R          &kp T                                         &kp Y        &kp U  &lt 5 I    &kp O          &kp P      &none
+&none  &kp A             &kp S      &kp D      &kp F          &kp G             &none        &none          &kp H        &kp J  &kp K      &kp L          &kp SQT    &none
+&none  &mt LEFT_SHIFT Z  &kp X      &kp C      &kp V          &kp B             &kp Z        &kp RIGHT_GUI  &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH  &none
+&none  &lt 6 ESC         &kp LANG2  &kp LANG1  &mt LCTRL TAB  &mt LEFT_WIN ESC  &lt 1 UNDER  &lt 2 ENTER    &lt 3 SPACE  &none  &none      &kp BACKSLASH  &kp EQUAL  &none
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -119,11 +119,11 @@
 
         layer_1 {
             bindings = <
-&none  &none         &none         &none         &none         &none                         &none         &none         &none         &none         &none         &none
-&none  &trans        &trans        &trans        &trans        &trans                        &trans        &trans        &trans        &trans        &trans        &none
-&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none   &none   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none  &trans        &trans        &trans        &trans        &trans        &none   &none   &trans        &trans        &trans        &trans        &trans        &none
-&none  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans        &none         &none         &none         &trans        &none
+&none  &none         &none            &none         &none         &none                        &none         &none         &none         &none         &none         &none
+&none  &trans        &trans           &trans        &trans        &trans                       &trans        &trans        &trans        &trans        &trans        &none
+&none  &kp NUMBER_1  &kp KP_NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none  &none   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+&none  &trans        &trans           &trans        &trans        &trans        &none  &none   &trans        &trans        &trans        &trans        &trans        &none
+&none  &trans        &trans           &trans        &trans        &trans        &none  &trans  &trans        &none         &none         &none         &trans        &none
             >;
         };
 
@@ -153,7 +153,7 @@
             bindings = <
 &none  &none   &none   &none   &none   &none                   &none   &none      &none      &none      &none   &none
 &none  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &none
-&none  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &mkp MB1   &mkp MB3   &mkp MB2   &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &none
 &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &none
 &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none      &none      &none      &trans  &none
             >;
