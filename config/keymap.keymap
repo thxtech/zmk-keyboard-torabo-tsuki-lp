@@ -169,8 +169,6 @@
 &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none
 &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &none
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
