@@ -11,6 +11,11 @@
             bindings = <&kp MINUS>;
             key-positions = <33 34>;
         };
+
+        doblequote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
